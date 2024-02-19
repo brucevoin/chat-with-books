@@ -1,0 +1,8 @@
+DEFAULT_DATA_PATH: 'data/'
+LLM: 'codellama:latest'
+# defalut ollama_base_url is http://localhost:11434
+OLLAMA_BASE_URL: 'http://192.168.6.179:24234'
+EMBEDDINGS: 'sentence-transformers/all-mpnet-base-v2'
+WEAVIATE_URL: 'http://localhost:8080'
+INDEX_NAME: 'Sparrow3'
+CHUNK_SIZE: 1000
